@@ -18,7 +18,6 @@ public class Bill {
     }
 
     public int getBillNo(){
-
         return BillNo;
     }
 
@@ -27,7 +26,6 @@ public class Bill {
     }
 
     public int getUserId(){
-
         return UserId;
     }
 
@@ -35,8 +33,8 @@ public class Bill {
         this.UserId = UserId;
     }
 
-    public double getAmount(double amount){
-
+    public double getAmount(double amount)
+    {
         return amount;
     }
 }
