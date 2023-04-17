@@ -7,7 +7,7 @@ public class Book {
 
     private Boolean isBorrowed;
 
-    public Book(int BookId, String BookName, double price) {
+    public Book(String BookName) {
         this.BookId = BookId;
         this.BookName = BookName;
         this.price = price;
@@ -43,16 +43,20 @@ public class Book {
     }
 
     public void setPrice(double price) {
+
         this.price = price;
     }
 
     public void BorrowBook(){
+
         isBorrowed = true;
     }
      public void ReturnBook(){
+
         isBorrowed = false;
      }
      public Boolean isBorrowed(){
+
         return isBorrowed;
      }
 
