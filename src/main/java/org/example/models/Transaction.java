@@ -16,10 +16,12 @@ public class Transaction {
     }
 
     public int getTransactionId(){
+
         return TransactionId;
     }
 
     public void setTransactionId(int TransactionId){
+
         this.TransactionId = TransactionId;
     }
 
@@ -29,6 +31,7 @@ public class Transaction {
     }
 
     public void setUserId(int UserId){
+
         this.UserId = UserId;
     }
 }

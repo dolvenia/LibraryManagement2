@@ -7,10 +7,10 @@ public class Book {
 
     private Boolean isBorrowed;
 
-    public Book(String BookName) {
+    public Book(int bookId, String BookName, double price) {
         this.BookId = BookId;
         this.BookName = BookName;
-        this.price = price;
+        this.price = this.price;
         this.isBorrowed = false;
     }
 

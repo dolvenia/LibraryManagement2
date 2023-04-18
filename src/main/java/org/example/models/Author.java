@@ -23,14 +23,17 @@ public class Author {
     }
 
     public void setAuthorName(String AuthorName){
+
         this.AuthorName = AuthorName;
     }
 
     public int getAuthorId(){
+
         return AuthorId;
     }
 
     public void setAuthorId(){
+
         this.AuthorId = AuthorId;
     }
 

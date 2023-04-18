@@ -23,6 +23,7 @@ public class Bill {
     }
 
     public void setBillNo(int BIllNo){
+
         this.BillNo = BillNo;
     }
 
@@ -32,6 +33,7 @@ public class Bill {
     }
 
     public void setUserId(int UserId){
+
         this.UserId = UserId;
     }
 
