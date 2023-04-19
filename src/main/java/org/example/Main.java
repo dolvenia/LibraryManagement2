@@ -33,11 +33,6 @@ public class Main {
 
 
 
-
-
-
-
-
         //Instantiated an object for User class
         User user = new User();
 
